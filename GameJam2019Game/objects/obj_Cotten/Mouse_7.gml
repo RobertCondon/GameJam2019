@@ -29,6 +29,8 @@ if (Instance != noone)
 	instance_create_depth(ListSpawn[0], ListSpawn[1], 0, obj_BC)
 	ListSpawn = scr_RandomSpawnArea();
 	instance_create_depth(ListSpawn[0], ListSpawn[1], 0, obj_Fabric)
+	ListSpawn = scr_RandomSpawnArea();
+	instance_create_depth(ListSpawn[0], ListSpawn[1], -1, obj_Dummy)
 } else {
 	x = OldX;
 	y = Oldy;

@@ -31,6 +31,7 @@ if (Instance != noone)
 	
 	//instance_create_depth(random_range(0,400), random_range(0,400), 0, objResource1)
 	//objResourceRock.sprite_index = rand + 3;
+	scr_SpawnExtras("<3", x, y);
 } else {
 	x = OldX;
 	y = Oldy;

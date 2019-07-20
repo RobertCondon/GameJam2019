@@ -24,7 +24,7 @@ if (Instance != noone)
 	Instance.sprite_index = spr_MonkeyPelt
 	instance_destroy();
 	obj_ClothesTree.CurrentClothes = spr_MonkeyPelt
-	obj_MonkeyControl.PopulationMult += 0.1;
+	obj_MonkeyControl.PopulationMult -= 3;
 } else {
 	x = OldX;
 	y = Oldy;

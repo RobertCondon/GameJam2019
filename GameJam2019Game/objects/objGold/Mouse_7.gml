@@ -13,7 +13,7 @@ if (Instance != noone)
 	objToolTree.CurrentSpear = sprGoldTool
 	Instance.sprite_index = sprGoldTool;
 	instance_destroy(objGold)
-	
+	scr_SpawnExtras("D;", x, y);
 	
 	//instance_create_depth(random_range(0,400), random_range(0,400), 0, objResource1)
 	//objResourceRock.sprite_index = rand + 3;

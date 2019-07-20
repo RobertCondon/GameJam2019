@@ -27,6 +27,8 @@ if (Instance != noone)
 	obj_MonkeyControl.PopulationMult += 0.1;
 	ListSpawn = scr_RandomSpawnArea();
 	instance_create_depth(ListSpawn[0], ListSpawn[1], 0, obj_space)
+	ListSpawn = scr_RandomSpawnArea();
+	instance_create_depth(ListSpawn[0], ListSpawn[1], -1, obj_Dummy)
 } else {
 	x = OldX;
 	y = Oldy;

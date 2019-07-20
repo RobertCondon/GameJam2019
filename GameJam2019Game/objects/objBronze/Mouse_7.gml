@@ -16,11 +16,14 @@ if (Instance != noone)
 	Instance.Text = "Bronze found!"
 	Instance.Event = true;
 	ListSpawn = scr_RandomSpawnArea();
-	instance_create_depth(ListSpawn[0], ListSpawn[1], -1, objIron)
+	instance_create_depth(ListSpawn[0], ListSpawn[1], 1, objIron)
 	ListSpawn = scr_RandomSpawnArea();
+	instance_create_depth(ListSpawn[0], ListSpawn[1], 1, obj_Dummy)
+	ListSpawn = scr_RandomSpawnArea();
+	instance_create_depth(ListSpawn[0], ListSpawn[1], 1, obj_Dummy)
 	instance_destroy(objBronze)
 	instance_destroy(objClay)
-	
+	scr_SpawnExtras(":D", x, y);
 	//objIron.sprite_index = sprIron;
 } else {
 	x = OldX;

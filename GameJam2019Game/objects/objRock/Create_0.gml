@@ -13,3 +13,7 @@ discoverY = 64
 
 OldX = x;
 Oldy = y;
+ListSpawn = scr_RandomSpawnArea();
+instance_create_depth(ListSpawn[0], ListSpawn[1], -1, obj_Dummy)
+ListSpawn = scr_RandomSpawnArea();
+instance_create_depth(ListSpawn[0], ListSpawn[1], -1, obj_Dummy)

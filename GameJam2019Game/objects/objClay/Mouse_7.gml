@@ -15,9 +15,13 @@ if (Instance != noone)
 	instance_destroy(objClay)
 	instance_destroy(objBronze)
 	ListSpawn = scr_RandomSpawnArea();
-	
 	instance_create_depth(ListSpawn[0], ListSpawn[1], 0, objSilver)
+	ListSpawn = scr_RandomSpawnArea();
+	instance_create_depth(ListSpawn[0], ListSpawn[1], 1, obj_Dummy)
+	ListSpawn = scr_RandomSpawnArea();
+	instance_create_depth(ListSpawn[0], ListSpawn[1], 1, obj_Dummy)
 	objSilver.sprite_index = sprSilver;
+	scr_SpawnExtras(":O", x, y);
 } else {
 	x = OldX;
 	y = Oldy;

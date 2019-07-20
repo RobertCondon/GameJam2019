@@ -12,7 +12,8 @@
         "c27f6204-b1f0-435a-a5e2-ea4e424f00e8",
         "2ce6eaab-8a40-4ca4-a4b7-9876f7a4242f",
         "c46770b0-7a09-4068-af39-19c576943432",
-        "b21e4a5f-e60e-44c7-9e9f-318e79f8236e"
+        "b21e4a5f-e60e-44c7-9e9f-318e79f8236e",
+        "a9c635e7-e975-43d1-92ce-4220f8a6db25"
     ],
     "filterType": "GMSprite",
     "folderName": "Techs",

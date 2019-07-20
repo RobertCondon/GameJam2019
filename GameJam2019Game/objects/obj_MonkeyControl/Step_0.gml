@@ -48,4 +48,4 @@ if(DestoryMonkey != noone || PopulationCount <= Population) {
 		DestoryMonkey = noone;
 	}
 }
-Population = 5 * PopulationMult
+Population = max(5 * PopulationMult, 5)

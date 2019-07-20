@@ -22,7 +22,12 @@ if (Instance != noone)
 	
 	ListSpawn = scr_RandomSpawnArea();
 	instance_create_depth(ListSpawn[0], ListSpawn[1], 0, objSteel)
+	ListSpawn = scr_RandomSpawnArea();
+	instance_create_depth(ListSpawn[0], ListSpawn[1], -1, obj_Dummy)
+	ListSpawn = scr_RandomSpawnArea();
+	instance_create_depth(ListSpawn[0], ListSpawn[1], -1, obj_Dummy)
 	objSteel.sprite_index = sprIron;
+	scr_SpawnExtras(":D", x, y);
 } else {
 	x = OldX;
 	y = Oldy;

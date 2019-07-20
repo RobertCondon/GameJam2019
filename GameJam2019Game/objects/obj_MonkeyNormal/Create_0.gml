@@ -8,4 +8,4 @@ moveSpeed = irandom_range(1.5,2.5);
 Interact = false;
 InterTimer = 0;
 tool = noone;
-CurrentSkin = spr_Monkey;
+CurrentSkin = obj_ClothesTree.CurrentClothes;
