@@ -1,3 +1,4 @@
+randomize();
 PopulationMult = 1.0;
 Population = 10*1.0;
 CurrentSkin = noone;

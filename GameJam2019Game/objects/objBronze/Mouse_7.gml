@@ -6,16 +6,23 @@ randomize();
 grab = false;
 depth = 0;
 
-if (place_meeting(x, y, objTool))
+Instance = instance_place(x,y, obj_fire);
+if (Instance != noone)
 {
 
-	
-	
-	objTool.sprite_index = sprBronzeTool;
+	obj_MonkeyControl.PopulationMult += 0.5;
+	objToolTree.CurrentSpear = sprBronzeTool
+	//Instance.sprite_index = sprBronzeTool;
+	Instance.Text = "Bronze found!"
+	Instance.Event = true;
+	ListSpawn = scr_RandomSpawnArea();
+	instance_create_depth(ListSpawn[0], ListSpawn[1], -1, objIron)
+	ListSpawn = scr_RandomSpawnArea();
 	instance_destroy(objBronze)
 	instance_destroy(objClay)
 	
-	
-	instance_create_depth(random_range(0,400), random_range(0,400), 0, objIron)
-	objIron.sprite_index = sprIron;
+	//objIron.sprite_index = sprIron;
+} else {
+	x = OldX;
+	y = Oldy;
 }

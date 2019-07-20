@@ -1,0 +1,1 @@
+CurrentSpear = sprWoodTool;

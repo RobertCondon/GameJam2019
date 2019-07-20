@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "bb728838-5551-4210-bfd3-3a23b814b135",
     "children": [
-        
+        "30ac7cea-6425-4618-a98f-1e704582f0b8",
+        "d613457d-dc9e-43a4-8307-2e90732ad418"
     ],
     "filterType": "GMScript",
     "folderName": "scripts",

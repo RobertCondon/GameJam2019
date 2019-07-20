@@ -1,0 +1,1 @@
+CurrentClothes = spr_Monkey;

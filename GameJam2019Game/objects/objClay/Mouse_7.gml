@@ -6,15 +6,19 @@ randomize();
 grab = false;
 depth = 0;
 
-if (place_meeting(x, y, objTool))
+Instance = instance_place(x,y, objTool);
+if (Instance != noone)
 {
-
-	
-	objTool.sprite_index = sprClayTool;
+	obj_MonkeyControl.PopulationMult -= 0.5;
+	objToolTree.CurrentSpear = sprClayTool
+	Instance.sprite_index = sprClayTool;
 	instance_destroy(objClay)
 	instance_destroy(objBronze)
+	ListSpawn = scr_RandomSpawnArea();
 	
-	
-	instance_create_depth(random_range(0,400), random_range(0,400), 0, objSilver)
+	instance_create_depth(ListSpawn[0], ListSpawn[1], 0, objSilver)
 	objSilver.sprite_index = sprSilver;
+} else {
+	x = OldX;
+	y = Oldy;
 }
