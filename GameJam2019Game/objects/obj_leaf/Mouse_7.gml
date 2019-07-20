@@ -20,7 +20,9 @@ if (Instance != noone)
 	instance_create_depth(ListSpawn[0], ListSpawn[1], 0, obj_Bone)
 	ListSpawn = scr_RandomSpawnArea();
 	instance_create_depth(ListSpawn[0], ListSpawn[1], 0, obj_Leather)
+	audio_play_sound(snd_PopUp, 2, false);
 } else {
+	audio_play_sound(snd_drop, 2, false);
 	x = OldX;
 	y = Oldy;
 }

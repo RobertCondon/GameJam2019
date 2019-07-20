@@ -17,7 +17,9 @@ if (Instance != noone)
 	
 	//instance_create_depth(random_range(0,400), random_range(0,400), 0, objResource1)
 	//objResourceRock.sprite_index = rand + 3;
+	audio_play_sound(snd_PopUp, 2, false);
 } else {
+	audio_play_sound(snd_drop, 2, false);
 	x = OldX;
 	y = Oldy;
 }

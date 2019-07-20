@@ -25,7 +25,10 @@ if (Instance != noone)
 	instance_destroy(objClay)
 	scr_SpawnExtras(":D", x, y);
 	//objIron.sprite_index = sprIron;
+	audio_play_sound(snd_PopUp, 2, false);
+	
 } else {
+	audio_play_sound(snd_drop, 2, false);
 	x = OldX;
 	y = Oldy;
 }

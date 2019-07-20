@@ -25,7 +25,9 @@ if (Instance != noone)
 	instance_destroy();
 	obj_ClothesTree.CurrentClothes = spr_MonkeyPelt
 	obj_MonkeyControl.PopulationMult -= 3;
+	audio_play_sound(snd_PopUp, 2, false);
 } else {
+	audio_play_sound(snd_drop, 2, false);
 	x = OldX;
 	y = Oldy;
 }

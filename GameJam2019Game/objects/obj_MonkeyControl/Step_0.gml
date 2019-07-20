@@ -49,3 +49,17 @@ if(DestoryMonkey != noone || PopulationCount <= Population) {
 	}
 }
 Population = max(5 * PopulationMult, 5)
+if(Population >= 20) {
+	lay_id = layer_get_id("Background");
+	back_id = layer_background_get_id(lay_id);
+	layer_background_sprite(back_id, spr_IndustrialBackground)
+	if(Industry == false) {
+		scr_SpawnExtrasBIG("Industrial Era!");
+		audio_stop_sound(snd_Music1);
+		audio_play_sound(snd_Music2, 1, true);
+		audio_play_sound(snd_newAge, 2, false);
+		Industry = true;
+		
+	}
+	
+}

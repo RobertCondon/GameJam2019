@@ -42,7 +42,10 @@ if (Instance != noone)
 	
 	objToolTree.currAge = "R";
 	scr_SpawnExtras(":O", x, y);
+	audio_play_sound(snd_PopUp, 2, false);
 } else {
+	audio_play_sound(snd_drop, 2, false);
+	
 	x = OldX;
 	y = Oldy;
 }

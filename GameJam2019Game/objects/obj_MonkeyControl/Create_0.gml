@@ -11,3 +11,6 @@ Roles[2] = "Hunter";
 
 SpawnTimer = 0;
 SpawnTime = 40;
+Industry = false;
+
+audio_play_sound(snd_Music1, 1, true);
