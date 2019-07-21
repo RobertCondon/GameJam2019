@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "07d8ce3b-5310-4fbc-92fa-66a9cef7483c",
+            "Value": {
+                "id": "f0d42506-84bd-4a99-a922-0ab6c2b5f1d9",
+                "resourcePath": "sprites\\sprite75\\sprite75.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "07e473f7-ea3a-4317-b6fe-4e1d82e9b866",
             "Value": {
                 "id": "6144b9c1-85bf-47a7-bbb1-2853210110c9",
@@ -631,6 +639,14 @@
             }
         },
         {
+            "Key": "7da43949-c001-47b3-980f-17b295d02bb2",
+            "Value": {
+                "id": "94ec32d1-f937-41a8-8f09-63dee0b2104c",
+                "resourcePath": "sprites\\spr_IndustrialFire\\spr_IndustrialFire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7e4d09ca-188b-4932-9442-eb84377044b9",
             "Value": {
                 "id": "9fa4750c-367e-44d1-8bb7-8e4a3862450f",
@@ -756,6 +772,14 @@
                 "id": "55d67afe-e010-44b7-95c8-ba20c9e6d5dc",
                 "resourcePath": "sprites\\spr_MonkeyBC\\spr_MonkeyBC.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a4cfc52c-be09-4409-af9f-df3dc2af044a",
+            "Value": {
+                "id": "10ba19af-fa03-478b-944e-deca7d021297",
+                "resourcePath": "objects\\obj_House\\obj_House.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1175,6 +1199,14 @@
             }
         },
         {
+            "Key": "e31ac18a-92f1-47aa-8136-a475b0816d9f",
+            "Value": {
+                "id": "cbb8de87-bd7d-4ba9-b45f-5eee7cdbfec8",
+                "resourcePath": "sprites\\spr_SciFiBackground\\spr_SciFiBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e9d60377-4b99-42b6-aa39-094f1a0e7020",
             "Value": {
                 "id": "cf8cd269-6401-4986-b8cc-2433e9739c73",
@@ -1291,6 +1323,14 @@
             "Value": {
                 "id": "53bcd0c1-6c69-42d9-a443-a618f6bbeb97",
                 "resourcePath": "sprites\\sprGold\\sprGold.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fb11ca9d-a1df-4b7c-8fe3-e7b30e98dc8d",
+            "Value": {
+                "id": "61c29fb2-2762-402f-93ea-f4262d24dd10",
+                "resourcePath": "sprites\\spr_IndustrialHouse\\spr_IndustrialHouse.yy",
                 "resourceType": "GMSprite"
             }
         },
