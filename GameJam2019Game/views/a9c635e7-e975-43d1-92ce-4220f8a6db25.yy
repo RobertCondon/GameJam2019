@@ -10,7 +10,8 @@
         "de9ae381-6ceb-47a2-9aa3-3b18f62f3667",
         "6b6405d3-eac6-456b-9e51-c088954ade5a",
         "a17436f4-0aa6-4092-8e6c-577238cb20ca",
-        "0c9a112d-2309-441e-bd96-7a96a351aa3a"
+        "0c9a112d-2309-441e-bd96-7a96a351aa3a",
+        "21a174c3-16d9-4604-9840-a1ec37038191"
     ],
     "filterType": "GMSprite",
     "folderName": "Trash",
