@@ -17,7 +17,7 @@ if(Skin == 1) {
 } else  if(Skin == 7) {
 	sprite_index = spr_twigs
 } else {
-	sprite_index = spr_Wood
+	sprite_index = spr_Stone
 }
 
 resourcex = 0;
