@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+Name = "Leaf"
+Draw = false;
 resourcex = 0;
 resourcey = 0;
 

@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+Name = "Leather"
 
 resourcex = 0;
 resourcey = 0;

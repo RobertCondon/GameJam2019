@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+Name = "Clay"
 resourcex = 0;
 resourcey = 0;
 

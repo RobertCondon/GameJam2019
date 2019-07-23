@@ -61,13 +61,18 @@ if(Population >= 20) {
 		audio_play_sound(snd_newAge, 2, false);
 		obj_House.sprite_index = spr_IndustrialHouse
 		obj_fire.sprite_index = spr_IndustrialFire
+		obj_Shrub.sprite_index = spr_IndustrialShrub
 		Industry = true;
 	}
 	if(Population >= 23.5) {
 		if(SciFI== false) {
+			scr_SpawnExtrasBIG("Space Era!");
 			lay_id = layer_get_id("Background");
 			back_id = layer_background_get_id(lay_id);
 			layer_background_sprite(back_id, spr_SciFiBackground)
+			obj_House.sprite_index = spr_SciFiHouse
+			obj_fire.sprite_index = spr_SciFire
+			obj_Shrub.sprite_index = spr_SciFiShrub
 			audio_stop_sound(snd_Music2);
 			audio_play_sound(snd_Music3, 1, true);
 			audio_play_sound(snd_newAge, 2, false);

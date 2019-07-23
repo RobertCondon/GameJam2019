@@ -13,5 +13,5 @@ SpawnTimer = 0;
 SpawnTime = 40;
 Industry = false;
 SciFI = false;
-
+audio_stop_all();
 audio_play_sound(snd_Music1, 1, true);

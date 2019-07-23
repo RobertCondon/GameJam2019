@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+Name = "Bronze Ore"
 resourcex = 0;
 resourcey = 0;
 

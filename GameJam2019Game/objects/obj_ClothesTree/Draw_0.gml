@@ -28,5 +28,3 @@ if (winCond == 2 && endTimer <= 0 && TreeTimer <= 0) {
 draw_set_alpha(myAlpha)
 draw_sprite(spr_SpaceTree, 0, 0,0)
 }
-
-

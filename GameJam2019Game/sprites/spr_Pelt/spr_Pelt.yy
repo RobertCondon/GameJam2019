@@ -8,7 +8,7 @@
     "VTile": false,
     "bbox_bottom": 29,
     "bbox_left": 0,
-    "bbox_right": 27,
+    "bbox_right": 30,
     "bbox_top": 8,
     "bboxmode": 0,
     "colkind": 1,
@@ -16,24 +16,24 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "8646cef5-3c38-4190-96c8-f46b60e3cfa0",
+            "id": "b4864a28-8955-4647-b51a-330467071dea",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "16218c63-bf4c-4c38-9614-11d9566690c4",
             "compositeImage": {
-                "id": "99c35a39-b716-4ea2-afe7-916f936afb9a",
+                "id": "1210f95d-70f6-4023-ae2a-f9b0be9e93bc",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "8646cef5-3c38-4190-96c8-f46b60e3cfa0",
+                "FrameId": "b4864a28-8955-4647-b51a-330467071dea",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "a0131708-4199-4f37-b1fd-695858615127",
+                    "id": "07e926cc-2dff-4b65-aaf6-3e0bc36e04f6",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "8646cef5-3c38-4190-96c8-f46b60e3cfa0",
-                    "LayerId": "f4b91298-0426-4350-9a75-cc6aa1ca5551"
+                    "FrameId": "b4864a28-8955-4647-b51a-330467071dea",
+                    "LayerId": "bdc0a16c-ab01-44e9-ad7b-17b173d87f78"
                 }
             ]
         }
@@ -43,7 +43,7 @@
     "height": 32,
     "layers": [
         {
-            "id": "f4b91298-0426-4350-9a75-cc6aa1ca5551",
+            "id": "bdc0a16c-ab01-44e9-ad7b-17b173d87f78",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "16218c63-bf4c-4c38-9614-11d9566690c4",
@@ -65,6 +65,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 32,
-    "xorig": 13,
-    "yorig": 21
+    "xorig": 17,
+    "yorig": 25
 }

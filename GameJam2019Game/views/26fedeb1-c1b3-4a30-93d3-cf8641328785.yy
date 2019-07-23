@@ -11,8 +11,7 @@
         "25501ae1-556c-4686-85a7-98c527073f4e",
         "d440e553-e3d4-4602-a56d-0fee1170d072",
         "07249a2f-1b1c-49f0-87db-a989f2beeb36",
-        "f5db4005-7313-445c-b60d-2dbea987f580",
-        "597153b2-b0bf-4e98-b68d-211c9279b462"
+        "f5db4005-7313-445c-b60d-2dbea987f580"
     ],
     "filterType": "GMObject",
     "folderName": "Tech",

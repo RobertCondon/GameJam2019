@@ -24,7 +24,7 @@ if (Instance != noone)
 	obj_MonkeyControl.PopulationMult += 3;
 	objToolTree.CurrentSpear = sprSteelTool
 	//Instance.sprite_index = sprSteelTool;
-	Instance.Text = "Steal found!"
+	Instance.Text = "Steel found!"
 	Instance.Event = true;
 	instance_destroy(objSteel)
 	
